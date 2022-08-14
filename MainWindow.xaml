@@ -8,7 +8,7 @@
 		ResizeMode="NoResize">
 	<Grid>
 		<Button x:Name="StartStopButton" Content="Start" HorizontalAlignment="Left" Margin="414,216,0,0" VerticalAlignment="Top" Height="37" Width="108"/>
-		<CheckBox x:Name="ShowDialogToggle" HorizontalAlignment="Left" Margin="276,227,0,0" VerticalAlignment="Top"/>
+		<CheckBox x:Name="ShowDialogToggle" HorizontalAlignment="Left" Margin="276,227,0,0" VerticalAlignment="Top" Width="124" Content="Show save dialog"/>
 		<Slider x:Name="IntervalSlider" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Width="290"/>
 		<Label x:Name="IntervalSliderLabel" Content="Interval:" HorizontalAlignment="Center" Margin="0,154,0,0" VerticalAlignment="Top" Width="101"/>
 		<Label x:Name="InfoLabel" Content="ⓘ" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="Transparent" Foreground="#FF9E9E9E" Height="52" Width="40" Margin="0,0,14,10" FontSize="30" FontStyle="Normal" FontWeight="Normal" FontFamily="Yu Gothic"/>
