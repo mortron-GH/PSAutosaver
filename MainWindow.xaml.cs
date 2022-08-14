@@ -66,6 +66,7 @@ namespace PSAutosaver
 			{
 				case Visibility.Visible:
 					this.MouseUp += HandleWindowMouseClick;
+					System.Windows.Input.Keyboard.ClearFocus();
 					break;
 
 				default:
