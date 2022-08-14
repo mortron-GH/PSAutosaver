@@ -1,2 +1,2 @@
 # PSAutosaver
-Simple WPF app for help Photoshop autosave files
+Simple WPF app for help Photoshop save files
