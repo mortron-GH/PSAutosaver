@@ -10,7 +10,7 @@
 		<Button x:Name="StartStopButton" Content="Start" HorizontalAlignment="Left" Margin="414,216,0,0" VerticalAlignment="Top" Height="37" Width="108"/>
 		<CheckBox x:Name="ShowDialogToggle" HorizontalAlignment="Left" Margin="276,227,0,0" VerticalAlignment="Top"/>
 		<Slider x:Name="IntervalSlider" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Width="290"/>
-		<Label x:Name="IntervalSliderLabel" Content="Interval:" HorizontalAlignment="Center" Margin="0,154,0,0" VerticalAlignment="Top" Width="84"/>
+		<Label x:Name="IntervalSliderLabel" Content="Interval:" HorizontalAlignment="Center" Margin="0,154,0,0" VerticalAlignment="Top" Width="101"/>
 		<Label x:Name="InfoLabel" Content="ⓘ" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="Transparent" Foreground="#FF9E9E9E" Height="52" Width="40" Margin="0,0,14,10" FontSize="30" FontStyle="Normal" FontWeight="Normal" FontFamily="Yu Gothic"/>
 		<Rectangle x:Name="InfoRectangle" HorizontalAlignment="Center" Height="171" Margin="0,119,0,0" Stroke="{DynamicResource MahApps.Brushes.AccentBase}" VerticalAlignment="Top" Width="318" Fill="#FF2F2F2F" Visibility="Hidden"/>
 		<emoji:TextBlock x:Name="InfoTextBlock" TextWrapping="Wrap" TextAlignment="Center" FontSize="14" FontWeight="Normal" Margin="246,193,246,181" Visibility="Hidden"/>
