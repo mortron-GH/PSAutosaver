@@ -1,0 +1,18 @@
+﻿<mah:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" x:Class="PSAutosaver.MainWindow"
+        Title="Photoshop Autosaver" Height="450" Width="800"
+		ResizeMode="NoResize">
+	<Grid>
+		<Button x:Name="StartStopButton" Content="Start" HorizontalAlignment="Left" Margin="414,216,0,0" VerticalAlignment="Top" Height="37" Width="108"/>
+		<CheckBox x:Name="ShowDialogToggle" HorizontalAlignment="Left" Margin="276,227,0,0" VerticalAlignment="Top"/>
+		<Slider x:Name="IntervalSlider" HorizontalAlignment="Center" Margin="0,180,0,0" VerticalAlignment="Top" Width="290"/>
+		<Label x:Name="IntervalSliderLabel" Content="Interval:" HorizontalAlignment="Center" Margin="0,154,0,0" VerticalAlignment="Top" Width="84"/>
+		<Label x:Name="InfoLabel" Content="ⓘ" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="Transparent" Foreground="#FF9E9E9E" Height="52" Width="40" Margin="0,0,14,10" FontSize="30" FontStyle="Normal" FontWeight="Normal" FontFamily="Yu Gothic"/>
+		<Rectangle x:Name="InfoRectangle" HorizontalAlignment="Center" Height="171" Margin="0,119,0,0" Stroke="{DynamicResource MahApps.Brushes.AccentBase}" VerticalAlignment="Top" Width="318" Fill="#FF2F2F2F" Visibility="Hidden"/>
+		<emoji:TextBlock x:Name="InfoTextBlock" TextWrapping="Wrap" TextAlignment="Center" FontSize="14" FontWeight="Normal" Margin="246,193,246,181" Visibility="Hidden"/>
+	</Grid>
+</mah:MetroWindow>
